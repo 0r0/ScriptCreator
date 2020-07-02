@@ -10,7 +10,7 @@ public enum ExcelFields {
     MOVEMENT_REQUEST("درخواست انتقال");
 
 
-    private String val;
+    private final String val;
 
     ExcelFields(String val) {
         this.val=val;
