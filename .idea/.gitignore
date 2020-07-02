@@ -6,3 +6,21 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7
+/sonarlint/issuestore/8/a/8a11ec5d3df46cc3368d900b83362b38987d239e
+/sonarlint/issuestore/9/c/9cf20ade8a4f3886b0da1e0f5de3e72bc3ff9037
+/sonarlint/issuestore/7/7/77b93f4110bd5afa4fef2d3690047b94c1483183
+/sonarlint/issuestore/8/2/82ca22e516372148d36b59830d23b4eb86f2ce0b
+/sonarlint/issuestore/8/4/841c2bccc6d0d646c8a8012014098bb130081327
+/sonarlint/issuestore/8/9/898b09efdc17c5a6db094f56cedb45bf16e6e77c
+/sonarlint/issuestore/9/3/937e8654f80f4debff89f3c37b677e513b064a5e
+/sonarlint/issuestore/2/6/26785668c642f7f07f1dfe4d28b690210c1b4c0f
+/sonarlint/issuestore/a/9/a92f952f0a9c6a922a16e1296dac9f7f87bddf82
+/sonarlint/issuestore/d/1/d1aea771d666c421d7c983018c8114a00881e10f
+/sonarlint/issuestore/e/6/e6b2ea38611594245ca13ddc632ac15cab3ffc23
+/sonarlint/issuestore/e/b/eb1b8937a901088575418a5de46af23a9ff72a03
+/../target/classes/org/example/config/inputexcel/ExcelSheets.class
+/../target/test-classes/org/example/config/inputexcel/ExcelSheetsTest.class
+/sonarlint/issuestore/f/8/f84d751f46730f9046beca4b153a723cec689014
+/../target/classes/org/example/inputexcel/ScriptFileColllector.class
+/sonarlint/*
