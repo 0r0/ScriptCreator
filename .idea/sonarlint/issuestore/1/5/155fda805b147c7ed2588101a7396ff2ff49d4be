@@ -1,0 +1,12 @@
+
+›
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+›
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+›
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+§
+java:S1130	"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈæŸÌúÿÿÿÿ8²Âøå™.
+š
+java:S1130	"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
