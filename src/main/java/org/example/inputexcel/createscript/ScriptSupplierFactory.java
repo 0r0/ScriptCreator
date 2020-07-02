@@ -14,7 +14,6 @@ public class ScriptSupplierFactory {
     }
     public static Script getScript(String type)
     {
-//        String ignoreCaseType=type.toLowerCase() ;
         Supplier<? extends Script> supplier=registeredType.get(type.toLowerCase());
         return supplier !=null ? supplier.get():null;
     }

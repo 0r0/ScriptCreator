@@ -19,6 +19,8 @@ public class ScriptSupplierFactoryTest {
         XSSFSheet myExcelSheet=myExcelWorkBook.getSheet("modify_receipt_issue");
         ScriptSupplierFactory.registerSupplier("cancelissue",new CancelIssue(myExcelSheet));
         System.out.println(ScriptSupplierFactory.getScript("cancelIssue"));
+        Script s=ScriptSupplierFactory.getScript("cancelIssue");
+        System.out.println(s);
         Assert.assertTrue(true);
     }
 }
