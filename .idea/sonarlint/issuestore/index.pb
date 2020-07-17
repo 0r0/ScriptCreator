@@ -67,8 +67,6 @@ b
 2src/main/java/org/example/SecondaryController.java,9\c\9cf20ade8a4f3886b0da1e0f5de3e72bc3ff9037
 N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
-[
-+src/main/resources/org/example/primary.fxml,d\1\d1aea771d666c421d7c983018c8114a00881e10f
 ]
 -src/main/resources/org/example/secondary.fxml,e\b\eb1b8937a901088575418a5de46af23a9ff72a03
 r
@@ -77,10 +75,6 @@ r
 Bsrc/test/java/org/example/config/inputexcel/ExcelSheets.Properties,8\2\82ca22e516372148d36b59830d23b4eb86f2ce0b
 m
 =src/test/java/org/example/config/inputexcel/Script.Properties,7\7\77b93f4110bd5afa4fef2d3690047b94c1483183
-~
-Ntarget/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst,e\6\e6b2ea38611594245ca13ddc632ac15cab3ffc23
-|
-Ltarget/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst,8\9\898b09efdc17c5a6db094f56cedb45bf16e6e77c
 €
 Psrc/test/java/org/example/inputexcel/createscript/ScriptSupplierFactoryTest.java,a\9\a92f952f0a9c6a922a16e1296dac9f7f87bddf82
 |

@@ -1,24 +1,16 @@
 
-f
-java:S1854"DRemove this useless assignment to local variable "formulaEvaluator".(ŒÌ¹âşÿÿÿÿ8¯Áš.
+A
+java:S3457@"%String contains no format specifiers.(¶™¾K8†À‹±.
 ^
 java:S1128"<Remove this unused import 'javafx.application.HostServices'.(«à×üûÿÿÿÿ8¯Áš.
-W
-java:S1481"5Remove this unused "formulaEvaluator" local variable.(ŒÌ¹âşÿÿÿÿ8¯Áš.
-]	java:S125&"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¯Áš.
-A
-java:S3457>"%String contains no format specifiers.(¶™¾K8¯Áš.
-U	java:S106B"9Replace this use of System.out or System.err by a logger.(Ó˜‡Ö8¯Áš.
-X	java:S125"<This block of commented-out lines of code should be removed.(¯ùÀ8¯Áš.
-E
-java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¯Áš.
-T	java:S106>"9Replace this use of System.out or System.err by a logger.(¶™¾K8¯Áš.
-g
-java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(ß¨ÿ’8¯Áš.
-X	java:S1257"<This block of commented-out lines of code should be removed.( ²ñ8¯Áš.
-X	java:S1254"<This block of commented-out lines of code should be removed.(îÊû×8¯Áš.
 o
-java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¼üùùÿÿÿÿ8¯Áš.
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¼üùùÿÿÿÿ8†À‹±.
+]	java:S125 "<This block of commented-out lines of code should be removed.(á§ìáÿÿÿÿÿ8Ï ’±.
+]	java:S125,"<This block of commented-out lines of code should be removed.(Ü•Äßşÿÿÿÿ8Í—“±.
+T	java:S106@"9Replace this use of System.out or System.err by a logger.(¶™¾K8†À‹±.
 W
 java:S1118":Add a private constructor to hide the implicit public one.(üå—Ã8¯Áš.
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(›’·Æşÿÿÿÿ8¯Áš.
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(Ó˜‡Ö8†À‹±.
+]	java:S125("<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¯Áš.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(âñ¬ç8´””±.
+]	java:S125"<This block of commented-out lines of code should be removed.(çÄÕ¬üÿÿÿÿ8â‰’±.

@@ -1,12 +1,14 @@
 
-W	java:S125""<This block of commented-out lines of code should be removed.(ª¯°q8Ù›Å‰±.
-]	java:S125"<This block of commented-out lines of code should be removed.(á§ìáÿÿÿÿÿ8Ù›Å‰±.
-X	java:S1258"<This block of commented-out lines of code should be removed.(şãíÎ8Ù›Å‰±.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÒ°¹8ğé²Ÿ±.
+X	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬8Ù›Å‰±.
+]	java:S1258"<This block of commented-out lines of code should be removed.(ÏÙÕÇøÿÿÿÿ8Ù›Å‰±.
+X	java:S125J"<This block of commented-out lines of code should be removed.(şãíÎ8Ù›Å‰±.
+X	java:S125@"<This block of commented-out lines of code should be removed.(¯Æ»ø8Ù›Å‰±.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Êœó˜8ŠÆÁŸ±.
 U
-java:S1144@"3Remove this unused private "scriptDetector" method.(¼•Æøüÿÿÿÿ8¸©‹å™.
-]	java:S125"<This block of commented-out lines of code should be removed.(¦”É›ÿÿÿÿÿ8Ù›Å‰±.
-]	java:S125&"<This block of commented-out lines of code should be removed.(ÏÙÕÇøÿÿÿÿ8Ù›Å‰±.
-X	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬8Ù›Å‰±.
-X	java:S125."<This block of commented-out lines of code should be removed.(¯Æ»ø8Ù›Å‰±.
+java:S1144R"3Remove this unused private "scriptDetector" method.(¼•Æøüÿÿÿÿ8¸©‹å™.
+]	java:S125!"<This block of commented-out lines of code should be removed.(¦”É›ÿÿÿÿÿ8Ù›Å‰±.
+]	java:S125,"<This block of commented-out lines of code should be removed.(á§ìáÿÿÿÿÿ8Ù›Å‰±.
+W	java:S1254"<This block of commented-out lines of code should be removed.(ª¯°q8Ù›Å‰±.
 N
-java:S1172@",Remove this unused method parameter "sheet".(¼•Æøüÿÿÿÿ8¸©‹å™.
+java:S1172R",Remove this unused method parameter "sheet".(¼•Æøüÿÿÿÿ8¸©‹å™.

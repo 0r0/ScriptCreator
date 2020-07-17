@@ -25,9 +25,11 @@ public class ReadExcelFile {
             FileInputStream file=new FileInputStream(new File(fileAddress));
 
         XSSFWorkbook workbook=new XSSFWorkbook(file);
-            XSSFSheet sheet=workbook.getSheet("ویرایش رسید و حواله");
+            System.out.println(workbook);
 
-        XSSFFormulaEvaluator formulaEvaluator=workbook.getCreationHelper().createFormulaEvaluator();
+//            XSSFSheet sheet=workbook.getSheet("ویرایش رسید و حواله");
+
+//        XSSFFormulaEvaluator formulaEvaluator=workbook.getCreationHelper().createFormulaEvaluator();
 //        for(XSSFRow row:sheet)
 //        {
 //            for(XSSFCell cell:row)
@@ -39,7 +41,7 @@ public class ReadExcelFile {
 //            }
 //        }
 
-            Iterator<Row> iterator=sheet.iterator();
+         /*   Iterator<Row> iterator=sheet.iterator();
             while(iterator.hasNext())
             {
                 Row row=iterator.next();
@@ -54,7 +56,7 @@ public class ReadExcelFile {
                     }
 //                   for()
                 }
-            }
+            }*/
 
 
         }catch(FileNotFoundException e)

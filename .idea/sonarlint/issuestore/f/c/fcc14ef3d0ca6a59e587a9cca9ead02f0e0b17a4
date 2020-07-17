@@ -1,15 +1,15 @@
 
 ˜
 java:S1130l"vRemove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.(òûëëúÿÿÿÿ8×èòÜ¯.
-@
-java:S1148|"#Use a logger to log this exception.(äµ£¬8áíÈˆ›.
-j
-java:S2095&"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ŸÔ¼ìüÿÿÿÿ8×èòÜ¯.
 j
 java:S5361c"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ŒÊÚ¶üÿÿÿÿ8×èòÜ¯.
 g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(”ß·çùÿÿÿÿ8×èòÜ¯.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™÷ÇÂùÿÿÿÿ8²©‹å™.
-e
-java:S5361b"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¾µßè8×èòÜ¯.
+@
+java:S1148|"#Use a logger to log this exception.(äµ£¬8áíÈˆ›.
 d
 java:S2095%"HUse try-with-resources or close this "FileReader" in a "finally" clause.(¥ÕX8×èòÜ¯.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™÷ÇÂùÿÿÿÿ8²©‹å™.
+j
+java:S2095&"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ŸÔ¼ìüÿÿÿÿ8×èòÜ¯.
+e
+java:S5361b"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¾µßè8×èòÜ¯.

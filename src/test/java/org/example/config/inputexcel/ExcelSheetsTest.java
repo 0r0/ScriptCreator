@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class ExcelSheetsTest {
     @Test
     void excelSheetEnumTest(){
-        System.out.println(ExcelSheets.CANCEL_REQUEST.getSheetName());
-        Assert.assertEquals("درخواست",ExcelSheets.CANCEL_REQUEST.getSheetName());
+//        System.out.println(ExcelSheets.CancelRequest.getSheetName());
+//        Assert.assertEquals("درخواست",ExcelSheets.CANCEL_REQUEST.getSheetName());
     }
 }
