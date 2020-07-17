@@ -35,6 +35,7 @@ public class ExcelFile {
                     {
                         //call Script supplier factory class
                         Script script=ScriptSupplierFactory.getScript2(excelsheet.toString(),sheet);
+                        scriptString.append("\n");
                         scriptString.append(script.generateScript());
                         System.out.println(scriptString);
                     }
@@ -60,5 +61,8 @@ public class ExcelFile {
             e.printStackTrace();
         }
 
+    }
+    public static StringBuilder getScriptString(){
+        return scriptString;
     }
 }
