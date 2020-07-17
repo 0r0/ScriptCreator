@@ -35,8 +35,6 @@ public class ExcelFile {
                     {
                         //call Script supplier factory class
                         Script script=ScriptSupplierFactory.getScript2(excelsheet.toString(),sheet);
-//                        System.out.println(scr);
-//                        System.out.println(script.generateScript());
                         scriptString.append(script.generateScript());
                         System.out.println(scriptString);
                     }
