@@ -45,15 +45,15 @@ public class ScriptSupplierFactoryTest {
     }
     @Test
     void instantiateClassByName() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, IOException {
-        FileInputStream excelFile=new FileInputStream(new File("C:\\Scripts\\UserExcel\\User_Midco.xlsx"));
-        XSSFWorkbook myExcelWorkBook=new XSSFWorkbook(excelFile);
-        XSSFSheet myExcelSheet=myExcelWorkBook.getSheet("modify_receipt_issue");
-//        Class<?> clazz=Class.forName("org.example.inputexcel.createscript.ScriptKind.CancelIssue");
-        Class<?> clazz=Class.forName(ClassAddress.CLASS_ADDRESS.getScriptAddress() +ExcelSheets.CancelIssue);
-        Constructor<?> constructor = clazz.getConstructor(Sheet.class);
-        Object instance = constructor.newInstance(myExcelSheet);
-        Script src=(Script)instance;
-        System.out.println(src);
+//        FileInputStream excelFile=new FileInputStream(new File("C:\\Scripts\\UserExcel\\User_Midco.xlsx"));
+//        XSSFWorkbook myExcelWorkBook=new XSSFWorkbook(excelFile);
+//        XSSFSheet myExcelSheet=myExcelWorkBook.getSheet("modify_receipt_issue");
+////        Class<?> clazz=Class.forName("org.example.inputexcel.createscript.ScriptKind.CancelIssue");
+//        Class<?> clazz=Class.forName(ClassAddress.CLASS_ADDRESS.getScriptAddress() +ExcelSheets.CancelIssue);
+//        Constructor<?> constructor = clazz.getConstructor(Sheet.class);
+//        Object instance = constructor.newInstance(myExcelSheet);
+//        Script src=(Script)instance;
+//        System.out.println(src);
         ExcelFile.read("C:\\Scripts\\UserExcel\\User_Midco1.xlsx");
 
     }
