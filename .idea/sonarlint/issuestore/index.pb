@@ -13,8 +13,6 @@ A
 ScriptCreator.iml,f\7\f7a0d5a31eedb952da0dc9323b8060c453bbfac8
 T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
-g
-7src/main/java/org/example/inputexcel/ReadExcelFile.java,f\d\fd175c6ada08214ca36991db2e391dfaec71548a
 d
 4src/main/java/org/example/inputexcel/SaveScript.java,e\5\e548f5211ba93eb6d64d01358cbcf6a4bf3aea80
 _
