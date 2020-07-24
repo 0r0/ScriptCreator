@@ -31,7 +31,6 @@ public class FileUploader {
 
 
             ReadExcelFile.readExcel(browseTextField.getText());
-            org.example.inputexcel.ExcelFile.hello(browseTextField.getText());
 
         }
 }
