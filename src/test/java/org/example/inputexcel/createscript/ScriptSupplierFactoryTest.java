@@ -6,6 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.example.config.inputexcel.ClassAddress;
 import org.example.config.inputexcel.ExcelSheets;
 import org.example.inputexcel.ExcelFile;
+import org.example.inputexcel.SaveScript;
 import org.example.inputexcel.createscript.ScriptKind.CancelIssue;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
@@ -54,7 +55,17 @@ public class ScriptSupplierFactoryTest {
 //        Object instance = constructor.newInstance(myExcelSheet);
 //        Script src=(Script)instance;
 //        System.out.println(src);
-        ExcelFile.read("C:\\Scripts\\UserExcel\\User_Midco1.xlsx");
+//        ExcelFile2 exf=new ExcelFile2();
+//        exf.Rea
+
+        System.out.println(ExcelFile.read("C:\\Scripts\\UserExcel\\User_Midco1.xlsx"));
+
+    }
+    @Test
+    void saveScriptTest() throws IOException {
+        StringBuilder myString= ExcelFile.read("C:\\Scripts\\UserExcel\\User_Midco1.xlsx");
+        System.out.println(myString);
+        SaveScript.done(myString,"20211","C:\\Scripts\\");
 
     }
 }
