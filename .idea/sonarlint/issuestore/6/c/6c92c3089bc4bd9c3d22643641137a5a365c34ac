@@ -1,3 +1,6 @@
 
-v
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(õ¤‡Òûÿÿÿÿ8Ûçñý°.
+X	java:S125'"<This block of commented-out lines of code should be removed.(°óöÑ8Í§àþ·.
+L
+java:S3740"/Provide the parametrized type for this generic.(ŽóÛã8Ôû‘ò¾.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(“Õš˜ÿÿÿÿÿ8„Ûþ·.
+X	java:S125."<This block of commented-out lines of code should be removed.(ë‡›¹8ðˆÄ¨¹.
