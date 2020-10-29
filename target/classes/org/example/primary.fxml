@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FileUploader">
+   <children>
+      <Button fx:id="generateButton" layoutX="268.0" layoutY="327.0" mnemonicParsing="false" onAction="#generateClicked" text="Generate" />
+      <Text layoutX="196.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Script Generator" textAlignment="CENTER" wrappingWidth="188.13671875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="selectEngine" layoutX="218.0" layoutY="72.0" prefHeight="25.0" prefWidth="165.0" promptText="select engine" onMouseClicked="#intializeCombo" />
+      <Button fx:id="browseButton" layoutX="51.0" layoutY="175.0" mnemonicParsing="false" onAction="#browseClicked" text="browse" />
+      <TextField fx:id="browseTextField" layoutX="123.0" layoutY="175.0" prefHeight="25.0" prefWidth="370.0" />
+      <TextField fx:id="fileName" layoutX="218.0" layoutY="221.0" prefHeight="25.0" prefWidth="165.0" promptText="script file name" />
+   </children>
+</Pane>
