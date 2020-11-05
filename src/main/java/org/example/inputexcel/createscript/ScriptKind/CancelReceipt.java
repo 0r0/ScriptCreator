@@ -51,12 +51,12 @@ public class CancelReceipt implements Script {
 
         fieldsConfig.load(scriptFields);// load config of script field names
 
-        String scriptAddress = config.getProperty("script_Address");//get memory address that scripts are saved
+        String scriptAddress = config.getProperty("script_Address");//get memory address that scripts are saved  script_Address=C:/Scripts/ModificationScripts/
 
-        String scriptName = config.getProperty("cancel_receipt");//get the contracted script name
-        String scriptFullAddress = scriptAddress + scriptName;
+        String scriptName = config.getProperty("cancel_receipt");//get the contracted script name  cancel_receipt=CancelReceipt.sql
+        String scriptFullAddress = scriptAddress + scriptName; // C:/Scripts/ModificationScripts/CancelReceipt.sql
 
-        String sheetName = sheetConfig.getProperty("cancel_receipt");//get the sheet name of cancel issue excel file
+        String sheetName = sheetConfig.getProperty("cancel_receipt");//get the sheet name of cancel issue excel file cancel_receipt=modify_receipt_issue
 
         if (!sheetNameChecker(sheetName,sheet.getSheetName()))
         {
@@ -65,57 +65,58 @@ public class CancelReceipt implements Script {
 
 //        String fieldB = fieldsConfig.getProperty("cancel_issue.Field.B.Header");//it is vouchar number
 
-        String kindValidation = ExcelFields.ISSUE.getValue();
+        String kindValidation = ExcelFields.RECEIPT.getValue(); //  it is equal  ' رسید'
 
-        String updateKindValidation =ExcelFields.CANCEL.getValue();
+        String updateKindValidation =ExcelFields.CANCEL.getValue(); // it is equal to  'ابطال'
 
-        String issueNumber;
+        String receiptNumber; // fields that store receipt number ;)
 
-        StringBuilder cancelIssueScript = new StringBuilder();// a string for storing cancel issue script
+        StringBuilder cancelReceiptScript = new StringBuilder();// a string for storing cancel receipt script
 
-        HashMap<String, String> validationFields = new HashMap<>();
-        validationFields.put("kindValidation", kindValidation);
-        validationFields.put("updateKindValidation", updateKindValidation);
+        HashMap<String, String> validationFields = new HashMap<>(); // store all validations for receipt here ;)
+        validationFields.put("kindValidation", kindValidation); // store 'رسید' kind validation
+        validationFields.put("updateKindValidation", updateKindValidation);// store 'ابطال' update kind validation ;)
+        // iterate over excel rows in sheet
         for (Row row : sheet) {
-
+            // check the row by validation  that relate to cancel receipt
             if (checker(row, validationFields)) {
-                issueNumber = row.getCell(1).getStringCellValue();
-                cancelIssueScript.append(createScriptPerIssueNumber(issueNumber, scriptFullAddress));
-                cancelIssueScript.append("\n");
+                receiptNumber = row.getCell(1).getStringCellValue(); // first cell is receipt numbers in excel sheet
+                //send  receipt number and receipt number script address as parameters in create Script method and append
+                cancelReceiptScript.append(createScript(receiptNumber, scriptFullAddress));
+                cancelReceiptScript.append("\n");
 
             }
 
         }
 
-        return cancelIssueScript.toString();
+        return cancelReceiptScript.toString();
     }
     @Override
     public boolean checker(Row row, Map<String,String> validationFields) throws IOException {
-        String kindValidation =validationFields.get("kindValidation");
+        String kindValidation =validationFields.get("kindValidation");// equal to  'رسید'
 
-        String updateKindValidation=validationFields.get("updateKindValidation");
-        String kind=row.getCell(0).getStringCellValue();// get value of kind in cell 0 in excel file and it must be حواله
+        String updateKindValidation=validationFields.get("updateKindValidation"); // equal to 'ابطال'
+        String kind=row.getCell(0).getStringCellValue();// get value of kind in cell 0 in excel file and it must be 'رسید'
         String updateKind=row.getCell(4).getStringCellValue();//get value of update kind in cell 4 in excel file and it must be  ابطال
 
         kind= kind.replaceAll(" ","");//remove redundant space from kind String
         updateKind=updateKind.replaceAll(" ","");// remove redundant space from update kind String
-
-        return kind.equals(kindValidation) && updateKind.equals(updateKindValidation);
+        return kind.equals(kindValidation) && updateKind.equals(updateKindValidation); //return true if kind=رسید  and updateKind=ابطال
     }
 
 
 
-    //create script for a issue number
+    //create script for a receipt number
     //  private
-    public String createScriptPerIssueNumber(String issueNumber,String scriptAddress) throws FileNotFoundException {
+    public String createScript(String receiptNumber,String scriptAddress) throws FileNotFoundException {
 
 
-        String fileContent=readScriptSourceFile(scriptAddress);
-        fileContent=fileContent.replace("'X'",issueNumber);
+        String fileContent=readScriptSourceFile(scriptAddress);// read script from source  as a string
+        fileContent=fileContent.replace("'X'",receiptNumber); // replace any 'X' with receipt number in script source file
         return fileContent;
     }
 
-    // read cancel issue script template
+    // read cancel receipt script template
 //    private
     public String readScriptSourceFile(String filePath){
         String content = null;
@@ -129,6 +130,7 @@ public class CancelReceipt implements Script {
     }
 
     //private
+    //check  sheet contracted sheet name with excel sheet name if is equal return true ;)
     public boolean sheetNameChecker(String contractedSheetName,String sheetName)
     {
 
