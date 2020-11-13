@@ -1,20 +1,15 @@
 
+m
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(‰“úşÿÿÿÿ8‰³ˆÎÙ.
 ›
-java:S1130
-"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8®ŒÎÙ.
 ›
-java:S1130
-"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
-š
-java:S1130
-"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈæŸÌúÿÿÿÿ8²Âøå™.
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8®ŒÎÙ.
 §
-java:S1130
-"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
+java:S1130	"„Remove the declaration of thrown exception 'java.lang.reflect.InvocationTargetException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8®ŒÎÙ.
+C	java:S131""Add a default case to this switch.(‰“úşÿÿÿÿ8‰³ˆÎÙ.
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈæŸÌúÿÿÿÿ8²Âøå™.
 ›
-java:S1130
-"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8«ÉôŒ°.
-v
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(±ëÁçıÿÿÿÿ8‚È©ˆ±.
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8®ŒÎÙ.
+š
+java:S1130	"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(ÈæŸÌúÿÿÿÿ8®ŒÎÙ.
