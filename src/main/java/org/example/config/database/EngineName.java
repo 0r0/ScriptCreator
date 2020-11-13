@@ -6,4 +6,5 @@ public enum EngineName {
     ZISCO_APP,
     BISCO_APP,
     FINFRA_APP,
+    FDOTIN_APP,
 }
