@@ -38,11 +38,11 @@ public class FileUploader {
 
 //            ReadExcelFile.readExcel(browseTextField.getText());
             System.out.println(ExcelFile.read(browseTextField.getText()));
-
+            System.out.println(selectEngine.getSelectionModel().selectedItemProperty().getValue());
 
         }
         @FXML
     public void intializeCombo(Event event){
-//            selectEngine.getItems().setAll(EngineName.values());
+            selectEngine.getItems().setAll(EngineName.values());
         }
 }
