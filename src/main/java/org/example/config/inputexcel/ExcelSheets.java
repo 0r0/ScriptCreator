@@ -5,9 +5,10 @@ import java.util.Map;
 
 public enum ExcelSheets {
     //all enum values is equal to class name for example CancelIssue is class name too ;)
-    CancelIssue(ExcelSheets.modifyReceiptIssue);
-//    CancelReceipt(ExcelSheets.modifyReceiptIssue),
-//    UpdateIssueDate(ExcelSheets.modifyReceiptIssue),
+    CancelIssue(ExcelSheets.modifyReceiptIssue),
+    CancelReceipt(ExcelSheets.modifyReceiptIssue),
+    UpdateIssueDate(ExcelSheets.modifyReceiptIssue),
+    UpdateReceiptDate(ExcelSheets.modifyReceiptIssue);
 //    UpdateReceiptDate(ExcelSheets.modifyReceiptIssue),
 //    CancelRequest(ExcelSheets.request);
 //    ScriptAddress(ExcelSheets.scriptAddress);
