@@ -7,7 +7,16 @@ public enum ExcelFields {
     EDIT_DATE("ویرایش تاریخ"),
     ORDER("سفارش"),
     REQUEST("درخواست"),
-    MOVEMENT_REQUEST("درخواست انتقال");
+    MOVEMENT_REQUEST("درخواست انتقال"),
+    CANCEL_RUNNING("لغو در جریان"),
+    SHIPMENT_ORDER("دستور حمل"),
+    SHIPMENT_REQUEST("درخواست حمل"),
+    WEIGHING_BILL("توزین"),
+    PLAQUE("پلاک"),
+    STATION("ایستگاه");
+
+
+
 
 
     private final String val;
