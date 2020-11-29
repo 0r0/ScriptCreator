@@ -1,8 +1,8 @@
 
-k
-java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(π¿ß–8ï¢·Ú∑.
+Y
+java:S1128"<Remove this unused import 'javafx.scene.control.FocusModel'.(‹Ø¡ã8ˇ·ÆÒ∑.
 \
 java:S1118
 ":Add a private constructor to hide the implicit public one.(µŒﬁ˝˚ˇˇˇˇ8≤¨û∑.
-Y
-java:S1128"<Remove this unused import 'javafx.scene.control.FocusModel'.(‹Ø¡ã8ˇ·ÆÒ∑.
+k
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(π¿ß–8ï¢·Ú∑.
