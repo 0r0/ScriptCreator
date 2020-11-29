@@ -5,7 +5,7 @@ public enum ExcelFields {
     ISSUE("حواله"),
     RECEIPT("رسید"),
     EDIT_DATE("ویرایش تاریخ"),
-    ORDER("سفارش"),
+    ORDER("سفارش کالا"),
     REQUEST("درخواست"),
     MOVEMENT_REQUEST("درخواست انتقال"),
     CANCEL_RUNNING("لغو در جریان"),
