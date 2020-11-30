@@ -4,6 +4,7 @@ import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -16,6 +17,8 @@ import java.io.FileNotFoundException;
 public class FileUploader {
         @FXML
     private TextField browseTextField;
+        @FXML
+    private TextField outputBrowseTextField;
         @FXML
     private ComboBox selectEngine;
         @FXML
@@ -30,6 +33,16 @@ public class FileUploader {
                 browseTextField.setText(selectedFile.getAbsolutePath());
             }
 
+
+        }
+        @FXML
+        public void outputSaveLocationBrowse(Event event)
+        {
+            DirectoryChooser directoryChooser=new DirectoryChooser();
+//            directoryChooser.setInitialDirectory(new File("C:\\"));
+            File selectedChooser=directoryChooser.showDialog(new Stage());
+
+            outputBrowseTextField.setText(selectedChooser.getAbsolutePath());
 
         }
         @FXML
