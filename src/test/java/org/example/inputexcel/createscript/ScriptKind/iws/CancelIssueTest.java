@@ -101,7 +101,7 @@ public class CancelIssueTest {
         FileReader scriptFieldName = new FileReader(rootPath + "\\src\\main\\java\\org\\example\\config\\outputexcel\\ScriptFieldNames.Properties");//get config of script names
         Properties config = new Properties();// config for scriptField name
         config.load(scriptFieldName);
-        ExcelCreator.addTableName(a);
+        ExcelCreator.tableName(a);
 //        String className= a.getClass().getSimpleName();
 //                new ExcelCreator(a).GeneratedScriptClassName.getClass().getSimpleName();
 //        System.out.println(className);
