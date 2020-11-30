@@ -15,9 +15,11 @@
             <Font size="21.0" />
          </font>
       </Text>
-      <ComboBox fx:id="selectEngine" layoutX="218.0" layoutY="72.0" prefHeight="25.0" prefWidth="165.0" promptText="select engine" onMouseClicked="#intializeCombo" />
+      <ComboBox fx:id="selectEngine" layoutX="218.0" layoutY="72.0" onMouseClicked="#intializeCombo" prefHeight="25.0" prefWidth="165.0" promptText="select engine" />
       <Button fx:id="browseButton" layoutX="51.0" layoutY="175.0" mnemonicParsing="false" onAction="#browseClicked" text="browse" />
-      <TextField fx:id="browseTextField" layoutX="123.0" layoutY="175.0" prefHeight="25.0" prefWidth="370.0" />
-      <TextField fx:id="fileName" layoutX="218.0" layoutY="221.0" prefHeight="25.0" prefWidth="165.0" promptText="script file name" />
+      <TextField fx:id="browseTextField" layoutX="123.0" layoutY="175.0" prefHeight="25.0" prefWidth="370.0" promptText="input excel file" />
+      <TextField fx:id="fileName" layoutX="218.0" layoutY="268.0" prefHeight="25.0" prefWidth="165.0" promptText="script file name" />
+      <Button fx:id="browseOutputButton" layoutX="52.0" layoutY="215.0" mnemonicParsing="false" text="Browse" onAction="#outputSaveLocationBrowse"/>
+      <TextField fx:id="outputBrowseTextField" layoutX="123.0" layoutY="215.0" prefHeight="25.0" prefWidth="370.0" promptText="output  location" />
    </children>
 </Pane>
