@@ -1,15 +1,15 @@
 
-]	java:S125 "<This block of commented-out lines of code should be removed.(á§ìáÿÿÿÿÿ8Ï ’±.
-o
-java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¼üùùÿÿÿÿ8†À‹±.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(âñ¬ç8´””±.
-U	java:S106F"9Replace this use of System.out or System.err by a logger.(Ó˜‡Ö8†À‹±.
-T	java:S106@"9Replace this use of System.out or System.err by a logger.(¶™¾K8†À‹±.
-^
-java:S1128"<Remove this unused import 'javafx.application.HostServices'.(«à×üûÿÿÿÿ8¯Áš.
-A
-java:S3457@"%String contains no format specifiers.(¶™¾K8†À‹±.
-]	java:S125"<This block of commented-out lines of code should be removed.(çÄÕ¬üÿÿÿÿ8â‰’±.
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(Ó˜‡Ö8†À‹±.
+]	java:S125,"<This block of commented-out lines of code should be removed.(Ü•Äßşÿÿÿÿ8Í—“±.
 W
 java:S1118":Add a private constructor to hide the implicit public one.(üå—Ã8¯Áš.
-]	java:S125,"<This block of commented-out lines of code should be removed.(Ü•Äßşÿÿÿÿ8Í—“±.
+]	java:S125"<This block of commented-out lines of code should be removed.(çÄÕ¬üÿÿÿÿ8â‰’±.
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¼üùùÿÿÿÿ8†À‹±.
+T	java:S106@"9Replace this use of System.out or System.err by a logger.(¶™¾K8†À‹±.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(âñ¬ç8´””±.
+^
+java:S1128"<Remove this unused import 'javafx.application.HostServices'.(«à×üûÿÿÿÿ8¯Áš.
+]	java:S125 "<This block of commented-out lines of code should be removed.(á§ìáÿÿÿÿÿ8Ï ’±.
+A
+java:S3457@"%String contains no format specifiers.(¶™¾K8†À‹±.
