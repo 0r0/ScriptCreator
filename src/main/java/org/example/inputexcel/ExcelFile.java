@@ -15,10 +15,10 @@ import java.lang.reflect.InvocationTargetException;
 
 public class ExcelFile {
 
-//    public static class ReadExcelFile {
+
         private static StringBuilder scriptString=new StringBuilder();
 
-        //    public void
+        // read input excel file
         public static StringBuilder  read(String fileAddress) throws FileNotFoundException {
             try {
                 FileInputStream file = new FileInputStream(new File(fileAddress));
