@@ -50,7 +50,7 @@ public class FileUploader {
 
 
 //            ReadExcelFile.readExcel(browseTextField.getText());
-            System.out.println(ExcelFile.read(browseTextField.getText()));
+            System.out.println(ExcelFile.read(browseTextField.getText()));//send  
             System.out.println(selectEngine.getSelectionModel().selectedItemProperty().getValue());
 
         }
