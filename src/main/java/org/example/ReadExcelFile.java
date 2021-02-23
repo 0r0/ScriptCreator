@@ -27,36 +27,7 @@ public class ReadExcelFile {
         XSSFWorkbook workbook=new XSSFWorkbook(file);
             System.out.println(workbook);
 
-//            XSSFSheet sheet=workbook.getSheet("ویرایش رسید و حواله");
 
-//        XSSFFormulaEvaluator formulaEvaluator=workbook.getCreationHelper().createFormulaEvaluator();
-//        for(XSSFRow row:sheet)
-//        {
-//            for(XSSFCell cell:row)
-//            {
-//                switch (formulaEvaluator.evaluateFormulaCell(cell).getCellType())
-//                {
-//                    case
-//                }
-//            }
-//        }
-
-         /*   Iterator<Row> iterator=sheet.iterator();
-            while(iterator.hasNext())
-            {
-                Row row=iterator.next();
-                Iterator<Cell> cellIterator=row.cellIterator();
-                while(cellIterator.hasNext())
-                {
-
-                    Cell cell=cellIterator.next();
-                    if(cell!=null && cell.getCellType()!= CellType.BLANK) {
-//                        System.out.println(row.getRowNum());
-                        System.out.println(cell.getStringCellValue());
-                    }
-//                   for()
-                }
-            }*/
 
 
         }catch(FileNotFoundException e)
